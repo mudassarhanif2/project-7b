@@ -1,0 +1,16 @@
+.button-container {
+    flex: 1 1 auto;
+    text-align: center;
+    margin: 0px 20px;
+    border: var(--button-border);
+    font-size: var(--button-text-size);
+    margin: 2vw;
+  }
+  .button-value{
+    background-color: rgb(82, 191, 224);
+    color: white
+  }
+  
+  .button-container:hover {
+    cursor: pointer;
+  }

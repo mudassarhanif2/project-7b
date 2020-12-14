@@ -1,0 +1,38 @@
+.timer-container {
+	background-color: var(--timer-background-color);
+	border: var(--timer-border);
+	height: var(--timer-height);
+	width: var(--timer-width);
+	border-bottom: 1.5vw solid rgb(76, 76, 184);
+	display: flex;
+	flex-direction: column;
+	/* flex-wrap: wrap; */
+}
+.timer-button-container{
+	display: flex;
+	position: relative;
+	padding-top: 8vw;
+}
+.time-display{
+	font-size: 15vw;
+	position: relative;
+	top: 25%;
+	left: 25%;
+	color: blue;
+}
+.start-timer {
+	color: red;
+}
+@media screen and (max-width: 1024px){
+	.timer-button-container{
+		padding-top: 19vw;
+	}
+}
+@media screen and (max-width: 650px){
+	.timer-button-container{
+		padding-top: 62vw;
+	}
+	p {
+		font-size: 3vw;
+	}
+}
